@@ -22,7 +22,7 @@ void draw() {
 } 
 class starfield{ 
   float   angel, speed, colorstreaks1, colorstreaks2, colorstreaks3, size,skibidix,skibidiy ,z,doom; 
-  private float x , y; 
+  float x , y; 
   starfield() {
     doom = 1; 
     z=(float)Math.cos(doom); 
@@ -68,7 +68,7 @@ class starfield{
   } 
 }
 class Oddballz extends starfield { 
-  float x , y ; 
+
   Oddballz() { 
     x = (float)(Math.random()*500)+1; 
     y = (float)Math.random()*500+1;
