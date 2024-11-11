@@ -1,7 +1,7 @@
 starfield [] stars ; 
 void setup(){
   size(750,750); 
- stars = new starfield [200]; 
+ stars = new starfield [500]; 
  for ( int i = 0 ; i < stars.length; i ++ ) { 
    if (i%10==0){ 
      stars[i]=new Oddballz(); 
