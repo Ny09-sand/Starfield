@@ -52,18 +52,18 @@ class starfield{
        colorstreaks2 = (int)(Math.random()*255+1) ;
        colorstreaks3 = (int)(Math.random()*255+1) ; 
     
-      speed=1;
-      angel = (float)( Math.random()*( 2 * PI ) +1) ;
+       speed=1;
+       angel = (float)( Math.random()*( 2 * PI ) +1) ;
       
     }
     if (y + (float)Math.sin(angel) * speed>750 || y + (float)Math.sin(angel) * speed<0 ){
        x = float(mouseX); 
        y = float(mouseY); 
-      colorstreaks1 = (int)(Math.random()*255+1) ; 
+       colorstreaks1 = (int)(Math.random()*255+1) ; 
        colorstreaks2 = (int)(Math.random()*255+1) ;
        colorstreaks3 = (int)(Math.random()*255+1) ; 
-      speed=1;
-      angel = (float)( Math.random()*( 2 * PI ) +1) ;
+       speed=1;
+       angel = (float)( Math.random()*( 2 * PI ) +1) ;
       
     }
   } 
@@ -94,18 +94,18 @@ class Oddballz extends starfield {
        colorstreaks2 = (int)(Math.random()*255+1) ;
        colorstreaks3 = (int)(Math.random()*255+1) ; 
     
-      speed=1;
-      angel = (float)( Math.random()*( 2 * PI ) +1) ;
+       speed=1;
+       angel = (float)( Math.random()*( 2 * PI ) +1) ;
       
     }
     if (y + (float)Math.sin(angel) * speed>750 || y + (float)Math.sin(angel) * speed<0 ){
        x = (float)(Math.random()*750)+1 * z; 
        y = (float)Math.random()*750+1;
-      colorstreaks1 = (int)(Math.random()*255+1) ; 
+       colorstreaks1 = (int)(Math.random()*255+1) ; 
        colorstreaks2 = (int)(Math.random()*255+1) ;
        colorstreaks3 = (int)(Math.random()*255+1) ; 
-      speed=1;
-      angel = (float)( Math.random()*( 2 * PI ) +1) ;
+       speed=1;
+       angel = (float)( Math.random()*( 2 * PI ) +1) ;
       
     }
   } 
