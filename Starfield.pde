@@ -14,7 +14,6 @@ void draw() {
   background(0); 
   for ( int i = 0 ; i < stars.length; i ++ ) {
     stars[i].show();
-    stars[i].show();
     stars[i].doom+=.01; 
   
     stars[i].colorstreaks2+=1;
